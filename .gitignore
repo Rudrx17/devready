@@ -1,0 +1,26 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Backend (Spring Boot / Maven / Gradle)
+backend/target/
+backend/build/
+backend/.gradle/
+*.class
+*.log
+
+# Frontend (React)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Docker volumes
+docker/data/
