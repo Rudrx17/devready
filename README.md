@@ -21,6 +21,7 @@ React.js, Spring Boot, PostgreSQL, Judge0, Gemini API
 ## API (Month 1)
 - `POST /api/auth/register`, `POST /api/auth/login` (public)
 - `GET /api/me` (needs `Authorization: Bearer <jwt>`)
+- All other routes from the Build Guide section 6 exist as stubs and return `501 Not Implemented` until their month (see `// TODO` in each controller)
 
 ## Team
 Riya Lahukar, Ankita Utture, Gururaj Shinde, Sahil Valiv, Rudraksh Ghodake
