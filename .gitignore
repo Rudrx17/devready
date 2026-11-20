@@ -21,6 +21,7 @@ backend/.gradle/
 frontend/node_modules/
 frontend/dist/
 frontend/build/
+*.zip
 
 # Docker volumes
 docker/data/
